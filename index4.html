@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing-up</title>
+    <link rel="stylesheet" href="css4/all.min.css">
+    <link rel="stylesheet" href="css4/normalize.css">
+    <link rel="stylesheet" href="css4/singup.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="singup-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <h1>انشاء حساب</h1>
+        <form>
+            <p>اسم المستخدم</p>
+            <input type="text" name="username" placeholder="ادخل الاسم" required>
+            <p>البريد الاكتروني</p>
+            <input type="email" name="email" placeholder="ادخل البريد الاكتروني" required >
+            <p>كلمة المرور</p>
+            <input type="password" name="password" placeholder="ادخل كلمة المرور" required>
+            <p>نوع الحساب</p>
+            <input list="types" name="type" placeholder="اختار نوع الحساب" required>
+            <datalist id="types">
+                <option value="زبون">
+                <option value="مكتب عقاري">
+                <option value="Admin">
+            </datalist>
+            <input type="submit" name="submit" value="انشاء حساب">
+            <div class="return"><a href="index3.html">تراجع</a></div>
+
+        </form>
+    </div>
+    
+</body>
+</html>

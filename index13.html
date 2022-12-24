@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>properties</title>
+    <link rel="stylesheet" href="css.13/all.min.css">
+    <link rel="stylesheet" href="css.13/normalize.css">
+    <link rel="stylesheet" href="css.13/propertiesFA.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="proper">
+        <div class="pro1">
+            <h2>اضف اعلانك</h2>
+        </div>
+       
+        <div class="pro2">
+            <label for="">نوع الاعلان</label>
+            <input list="typess" name="type" id="#" placeholder="اختار نوع الاعلان" required>
+            <datalist id="typess">
+                <option value="يوم واحد">
+                <option value="ثلاث ايام">
+                <option value="شهر">
+            </datalist>
+            <label for="">نوع العرض</label>
+            <input list="typesss" name="type" id="#" placeholder="اختار نوع العرض بيع\ايجار" required>
+            <datalist id="typesss">
+                <option value="بيع">
+                <option value="ايجار">
+            </datalist>
+        </div>
+        <div class="pro3">
+            <h3>خصائص العقار:</h3>
+            <label for="r1">مساحة:</label>
+            <input type="number" name="" id="r1" placeholder="م^2 اختار المساحة" required >
+            <label for="r6">الصور/فيديو:</label>
+            <input type="url" name="" id="r6" placeholder="قم بتحميل صورة-فيديو" >
+            <div class="image">
+            <button type="reset">اختيار</button>
+            <button type="submit">حذف</button>
+            </div>
+            <label for="r7">الموقع:</label>
+            <input list="locition" name="" id="r7" placeholder="اختار الموقع"required>
+            <datalist id="locition">
+                <option value="شارع اسطنبول">
+                <option value="شارع طرابلس">
+                <option value="شارع انتلات">
+                <option value="حي دمشق">
+                <option value="شارع الوفاق">
+                <option value="شارع الكفرة">
+                <option value="وسط البلاد">
+                <option value="حي سبعة اكتوبر">
+                <option value="حي الفلوجة">
+                <option value="اخري">
+            </datalist>
+            <label for="r8">موقع-خريطة:</label>
+            <input type="url" name="" id="r8" placeholder="ادخل رابط الموقع ">
+            <label for="r9">السعر:</label>
+            <input type="number" name="" id="r9" placeholder="ادخل السعر " required min="500">
+            <label for="r10">ملاحظات:</label>
+            <textarea name="" id="r10" ></textarea>
+        </div>
+        <div class="pro4">
+            <h3>المميزات:</h3>
+            <div class="check">
+            <div>
+            <input id="c1" type="checkbox" name="so">
+            <label for="c1">يوجد بها ماء</label>
+            </div>
+            <div>
+            <input id="c2" type="checkbox" name="so">
+            <label for="c2">يوجد بها كهرباء</label>
+            </div>
+            <div>
+            <input id="c3" type="checkbox" name="so">
+            <label for="c3">يوجد عليها سياج</label>
+            </div>
+            <div>
+            <input id="c4" type="checkbox" name="so">
+            <label for="c4">خزان مياه</label>
+            </div>
+            <div>
+            <input id="c4" type="checkbox" name="so">
+            <label for="c4">مسبح</label>
+            </div>
+            <div>
+            <input id="c5" type="checkbox" name="so">
+            <label for="c5">مخزن</label>
+            </div>
+        </div>
+        </div>
+        <div class="pro5">
+            <button><a href="#">اضافة اعلان</a></button>
+            <button><a href="index9.html">رجوع</a></button>
+        </div>
+
+
+    
+    </div>
+</body>
